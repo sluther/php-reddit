@@ -1,0 +1,21 @@
+{
+    "name": "php-reddit/php-reddit",
+    "type": "library",
+    "require": {
+        "php": ">=8.0.0",
+        "guzzlehttp/guzzle": "7.4.5",
+        "sluther/oauth2-reddit": "2.0.3"
+    },
+    "license": "GPL-3.0",
+    "autoload": {
+        "psr-4": {
+            "PhpReddit\\PhpReddit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Scott Luther",
+            "email": "neenach2002@gmail.com"
+        }
+    ]
+}
